@@ -1,0 +1,14 @@
+{
+  "name": "Zenhub Helper",
+  "description": "This is a helper for Zenhub to maximize/restore Zenhub's working space.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Zenhub Helper",
+    "default_icon": "maximize.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
